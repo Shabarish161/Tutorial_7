@@ -1,16 +1,11 @@
 ---
 title: "Expert advice from experts"
 author:
-- familyname: Curie
-  othernames: Marie
-  address: University of Paris
-  qualifications: Nobel Prize, PhD
-- familyname: Curie
-  othernames: Pierre
-  address: University of Paris
-  qualifications: Nobel Prize, PhD
-email: mcurie.notreal@gmail.com
-phone: (03) 9905 2478
+- familyname: Shabarish Sai Subramanian
+  address: Monash University
+  qualifications: Masters in Business Analytics
+email: shab0011@student.monash.edu
+phone: 0481235379
 department: Department of\newline Econometrics &\newline Business Statistics
 organization: Acme Corporation
 bibliography: references.bib
