@@ -32,15 +32,6 @@
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
@@ -199,11 +190,11 @@
 \DeclareDelimFormat[cbx@textcite]{nameyeardelim}{\addspace}
 \makeatother
 
-\author{\sf{\Large\textbf{ Shabarish Sai Subramanian}\\\large Masters in Business Analytics\\[0.5cm]}}
+\author{\sf{\Large\textbf{ Shabarish Sai Subramanian}\\\large Masters in Business Analytics\\[0.5cm]}{\Large\textbf{ Priyasha Saini}\\\large Masters in Business Analytics\\[0.5cm]}}
 
 \date{\sf\Date~\Month~\Year}
 \makeatletter
-\lfoot{\sf Shabarish Sai Subramanian: \@date}
+\lfoot{\sf Shabarish Sai Subramanian, Priyasha Saini: \@date}
 \makeatother
 
 
@@ -220,7 +211,7 @@
 
   \telephone{481235379}
 
-  \email{\href{mailto:shab0011@student.monash.edu}{\nolinkurl{shab0011@student.monash.edu}}}
+  \email{BusEco-Econometrics@monash.edu}
 
 \def\webaddress{\url{http://buseco.monash.edu/ebs/consulting/}}
 \def\abn{12 377 614 012}
@@ -301,16 +292,12 @@
 \begin{document}
 \titlepage
 
+this is a practice
+
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
 In a famous paper, \textcite{BC64} introduced a family of transformations \dots
-
-\begin{figure}
-\centering
-\includegraphics{Untitled_files/figure-latex/histogram-1.pdf}
-\caption{\label{fig:histogram}Nice histogram}
-\end{figure}
 
 Consider the logNormal data plotted in Figure \ref{fig:histogram}.
 
